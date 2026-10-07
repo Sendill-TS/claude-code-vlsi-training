@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(iverilog:*)",
+      "Bash(vvp:*)",
+      "Bash(verilator --lint-only:*)",
+      "Bash(tclsh:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [
+      "Read(./pdk/**)",
+      "Read(./.env)",
+      "Read(./**/*.lic)"
+    ]
+  }
+}

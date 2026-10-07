@@ -1,0 +1,38 @@
+# Simulation output
+*.vvp
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.shm/
+*.log
+obj_dir/
+work/
+xcelium.d/
+INCA_libs/
+csrc/
+simv
+simv.daidir/
+*.key
+ucli.key
+
+# Layout / EDA tool scratch
+*.cdslck
+*.lck
+*.gds
+*.oas
+.cadence/
+
+# Never commit these
+pdk/
+*.lic
+.env
+
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/

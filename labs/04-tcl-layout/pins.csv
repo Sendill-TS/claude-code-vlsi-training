@@ -1,0 +1,7 @@
+# name,layer
+vdd,M2
+inp,M1
+inn,M1
+ibias,M1
+out,M1
+vss,M2
