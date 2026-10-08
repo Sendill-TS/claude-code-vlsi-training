@@ -1,13 +1,13 @@
-# Lab 03 — Build a real testbench
+# Lab 04 — Build a real testbench
 
 Goal: drive a multi-file change with a plan, instead of one prompt at a time.
 
-Start from your fixed FIFO from lab 02 (copy `rtl/sync_fifo.sv` into this
+Start from your fixed FIFO from lab 03 (copy `rtl/sync_fifo.sv` into this
 folder on your branch).
 
 ## Tasks
 
-1. **Write the test plan first.** Take your corner-case list from lab 01 and
+1. **Write the test plan first.** Take your corner-case list from lab 02 and
    turn it into `testplan.md`: one row per feature, with the stimulus and the
    check. Write it yourself; ask Claude only to review it for gaps.
 2. **Plan mode.** Press Shift+Tab until plan mode is on, then:

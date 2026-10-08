@@ -1,0 +1,14 @@
+# Pin list for bias_dac, a made-up 6-bit current DAC used only for this lab.
+# name,direction,width,type,edge
+clk,input,1,digital,left
+rst_n,input,1,digital,left
+en,input,1,digital,left
+code,input,[5:0],digital,left
+trim,input,4,digital,left
+busy,output,1,digital,rigth
+vref,input,1,analog,top
+ibias,in,1,analog,top
+iout,output,1,analog,right
+trim,input,3,digital,bottom
+vdd,input,1,supply,top
+vss,inout,1,supply,bottom

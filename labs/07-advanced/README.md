@@ -1,4 +1,4 @@
-# Lab 06 — Make it yours
+# Lab 07 — Make it yours
 
 Goal: move from using Claude Code to shaping it for your project. Each part
 ends in a pull request to this repo, so the whole team gets the result.
@@ -17,7 +17,7 @@ beats long. Compare yours with a colleague's.
 
 A skill is a reusable procedure in `.claude/skills/<name>/SKILL.md`. Read
 `.claude/skills/triage-sim-log/SKILL.md` in this repo and try it on a failing
-log from lab 03. Then write one for a task you repeat, for example:
+log from lab 04. Then write one for a task you repeat, for example:
 
 - review a Tcl script against the team's conventions;
 - turn a waveform observation plus a log into a bug report in your tracker's format;
