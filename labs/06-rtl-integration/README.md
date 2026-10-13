@@ -1,4 +1,4 @@
-# Lab 05 — RTL integration
+# Lab 06 — RTL integration
 
 Goal: generate a top level from a written spec, and learn to check generated
 connectivity rather than trust it.

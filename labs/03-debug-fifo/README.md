@@ -1,4 +1,4 @@
-# Lab 02 — Debug a FIFO
+# Lab 03 — Debug a FIFO
 
 Goal: let Claude Code run the simulator, reproduce a bug, and fix it test-first.
 
@@ -7,7 +7,7 @@ Goal: let Claude Code run the simulator, reproduce a bug, and fix it test-first.
 `rtl/sync_fifo.sv` passes its testbench:
 
 ```
-cd labs/02-debug-fifo
+cd labs/03-debug-fifo
 iverilog -g2012 -o sim.vvp rtl/sync_fifo.sv tb/tb_sync_fifo.sv && vvp sim.vvp
 ```
 
@@ -16,7 +16,7 @@ sends long bursts. Nobody has a failing test.
 
 ## Tasks
 
-1. Run the existing test through Claude: `Run the FIFO testbench in labs/02-debug-fifo and tell me the result.`
+1. Run the existing test through Claude: `Run the FIFO testbench in labs/03-debug-fifo and tell me the result.`
 2. Give it the bug report in your own words and ask for a hypothesis **before**
    any code change.
 3. Ask it to extend the testbench so the test fails because of the bug.

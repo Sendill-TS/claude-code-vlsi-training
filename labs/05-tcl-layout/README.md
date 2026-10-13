@@ -1,4 +1,4 @@
-# Lab 04 — Tcl for analog layout
+# Lab 05 — Tcl for analog layout
 
 Goal: use Claude Code to write and extend layout automation scripts, and learn
 where it needs to be kept on a short leash: tool-specific commands.
@@ -7,7 +7,7 @@ where it needs to be kept on a short leash: tool-specific commands.
 their coordinates. It runs under plain `tclsh`, no layout tool needed:
 
 ```
-cd labs/04-tcl-layout
+cd labs/05-tcl-layout
 tclsh place_pins.tcl pins.csv 12.0 0.005
 ```
 

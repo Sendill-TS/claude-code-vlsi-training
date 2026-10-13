@@ -6,12 +6,16 @@ Times are rough guides for a first pass.
 | Lab | Level | VLSI topic | Claude Code skill it teaches | Time |
 | --- | --- | --- | --- | --- |
 | [00-setup](00-setup/README.md) | Beginner | — | Install, log in, first prompt, permission prompts | 30 min |
-| [01-explore-rtl](01-explore-rtl/README.md) | Beginner | Reading RTL | Asking questions, `@file` references, read-only use | 45 min |
-| [02-debug-fifo](02-debug-fifo/README.md) | Beginner | DV: bug hunt | Letting Claude run tools, reviewing diffs, test-first fixing | 1.5 h |
-| [03-dv-testbench](03-dv-testbench/README.md) | Intermediate | DV: testbench | Plan mode, iterating on a larger change, `/code-review` | 3 h |
-| [04-tcl-layout](04-tcl-layout/README.md) | Intermediate | Tcl for analog layout | Writing specs as prompts, porting to a tool API safely | 2 h |
-| [05-rtl-integration](05-rtl-integration/README.md) | Intermediate | RTL integration | Generating from a spec, lint loops, checking Claude's work | 2 h |
-| [06-advanced](06-advanced/README.md) | Advanced | Your own project | `CLAUDE.md`, skills, hooks, subagents, headless runs | open |
+| [01-pin-list](01-pin-list/README.md) | Beginner | Everyone: block pin list | Asking questions, `@file` references, running a tool, a first reviewed edit | 1.5 h |
+| [02-explore-rtl](02-explore-rtl/README.md) | Beginner | Reading RTL | Read-only use on code you did not write | 45 min |
+| [03-debug-fifo](03-debug-fifo/README.md) | Beginner | DV: bug hunt | Reproducing a bug, reviewing diffs, test-first fixing | 1.5 h |
+| [04-dv-testbench](04-dv-testbench/README.md) | Intermediate | DV: testbench | Plan mode, iterating on a larger change, `/code-review` | 3 h |
+| [05-tcl-layout](05-tcl-layout/README.md) | Intermediate | Tcl for analog layout | Writing specs as prompts, porting to a tool API safely | 2 h |
+| [06-rtl-integration](06-rtl-integration/README.md) | Intermediate | RTL integration | Generating from a spec, lint loops, checking Claude's work | 2 h |
+| [07-advanced](07-advanced/README.md) | Advanced | Your own project | `CLAUDE.md`, skills, hooks, subagents, headless runs | open |
+
+Lab 01 is a shared project for DV, RTL design and analog layout engineers; do
+it together before the labs that lean on one discipline.
 
 ## How to work on a lab
 
